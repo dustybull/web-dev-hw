@@ -1,0 +1,8 @@
+Briefly describe one way how data travels on the internet.
+- The computer receiving the data assembles the packets like a puzzle recreating the message.
+What is the relationship between an IP address and the DNS?
+- An IP address is assigned to any computer, to identify it on a network, A DNS is a domain service which is used to convert into a servers IP address
+What is a cookie?
+- a cookie is a small file stored on a computer. Designed to hold an amount of data specific to a client and website
+List the the three basic parts of a URL.
+- Protocol, the domain name, and the path
