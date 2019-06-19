@@ -1,0 +1,32 @@
+h1{
+  color: silver;
+}
+.square {
+
+  width: 85%;
+  height:100px;
+}
+body{
+   background-color: Black;
+   text-align: center;
+ }
+img{align: right;}
+
+#silver {
+  background-color:#FF0000;
+}
+#gold {
+  background-color:#FFA500;
+}
+#brown{
+  background-color:#FFFF00;
+}
+#yellow{
+  background-color:#7FFF00;
+}
+#green {
+  background-color:#0000FF;
+}
+#pink {
+  background-color: #800080;
+}
