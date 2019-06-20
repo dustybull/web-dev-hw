@@ -1,0 +1,37 @@
+/* page-wide*/
+body {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+/*Paragraph Content*/
+.text {
+  background-color: black;
+  color: red;
+  padding: 5px;
+  line-height: 2em;
+}
+p:First-of-type:First-Letter {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  Color: Silver;
+}
+
+/* "Read More!" Link */
+a {
+  background color: black;
+  color: white;
+  padding: 5px;
+}
+a:hover{
+  font-style: italic;
+}
+a:visited{
+  color: blue;
+}
+a:active{
+  background-color: green;
+}
