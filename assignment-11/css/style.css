@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Fascinate+Inline');
+
+/* Page-Wide */
+body {
+  background: grey;
+  padding: 20px;
+}
+
+/* Canvas */
+#canvas {
+  width: 500px;
+  height: 600px;
+
+  background-color: silver;
+  border: 25px solid White;
+  position: relative;
+}
+#canvas::after {
+  content: '';
+  width: 500px;
+  height: 600px;
+  opacity: 0.5;
+
+  position: absolute;
+  top: 0;
+  right: ;
+  left: 0;
+  bottom: ;
+}
+
+/* 3 Vertical Columns */
+.column-left {
+  width: 30%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+.column-center {
+  width: 40%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+.column-right {
+  width: 30%;
+  height: 100%;
+  float: left;
+
+  position: relative;
+}
+
+/* Horizontal Rows */
+.row {
+  width: 100%;
+  height: 33.3%;
+}
+
+/* Full Circles */
+.circle {
+  width: 90%;
+  height: 90%;
+  border-radius: 90%;
+  background-color: blue;
+  display: inline-block;
+  margin: 5%;
+}
+.circle.blue {
+  height: 80%;
+  background-color: blue;
+  margin-top: 10%;
+  position: relative;
+  z-index: 0;
+}
+  /* Line Shapes */
+
+  .horizontal-rectangle {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    position: absolute;
+    top: 100px;
+    right: ;
+    left: 275px;
+    bottom: ;
+    z-index: 1;
+  }
+/* Equilateral Triangle*/
+.arrow-up {
+	border-color: yellow transparent;
+	border-style: solid;
+	border-width: 0px 90px 160px 90px;
+	height: 0px;
+	width: 0px;
+
+  position: absolute;
+  top: 115px;
+  right: ;
+  left: 25px;
+  bottom: ;
+  z-index: 1;
+}
+
+/* Text */
+#text-container {
+  width: 600px;
+}
+h1 {
+  font-family: cursive;
+  margin-bottom: 0px;
+}
+p{
+  font-family: cursive;
+  margin-top: 5px;
+}
+p:first-of-type {
+  font-size: 125%;
+  text-transform: uppercase;
+}
